@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    text-align: center;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    width: 17rem;
+    height: 2rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container button{
+    font-size: larger;
+    margin: 1rem;
+    padding: 1rem;
+    /* background-color: transparent; */
+    /* border: none; */
+}
+button{
+    border: 1px solid lightgray;
+    background-color: lightblue;
+}
